@@ -11,5 +11,6 @@ Pod::Spec.new do |s|
   s.source_files = 'Classes', 'Classes/**/*.{h,m,xcdatamodel}'
   # s.frameworks = 'SomeFramework', 'AnotherFramework'
   s.requires_arc = true
+  s.dependency 'IFBKThirtySeven', '~> 0.0.3'
   # s.dependency 'JSONKit', '~> 1.4'
 end
